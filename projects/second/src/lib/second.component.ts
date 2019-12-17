@@ -9,11 +9,8 @@ import { Component, OnInit } from '@angular/core';
   `,
   styles: []
 })
-export class SecondComponent implements OnInit {
+export class SecondComponent {
 
   constructor() { }
-
-  ngOnInit() {
-  }
 
 }

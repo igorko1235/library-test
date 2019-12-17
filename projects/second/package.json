@@ -3,10 +3,15 @@
   "version": "0.0.2",
   "scripts": {
     "build": "ng build second",
-    "postpublish": "rm -rf dist/"
+    "postpublish": "rm -rf dist/",
+    "publish-npm": "npm publish --access public"
   },
   "peerDependencies": {
     "@angular/common": "^8.2.14",
     "@angular/core": "^8.2.14"
+  },
+  "gitHead": "03e3ac45ceeaf2e7084e70a8fb371f109e4ac3d1",
+  "publishConfig": {
+    "access": "public"
   }
 }
